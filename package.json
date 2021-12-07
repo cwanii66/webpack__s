@@ -5,7 +5,7 @@
   "discription": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack --config webpack.config.js"
   },
   "repository": "git@github.com:cwluvani/webpack__s.git",
   "author": "Chris Wong <wh18710455626@126.com>",
