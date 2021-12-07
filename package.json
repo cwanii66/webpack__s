@@ -1,0 +1,18 @@
+{
+  "name": "webpack__s",
+  "version": "1.0.0",
+  "private": true,
+  "discription": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": "git@github.com:cwluvani/webpack__s.git",
+  "author": "Chris Wong <wh18710455626@126.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
