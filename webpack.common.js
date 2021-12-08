@@ -1,7 +1,10 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: './src/index.js',
+    entry: {
+        main: './src/index.js',
+        vendor: './src/vendor.js'
+    },
     module: {  // under module.rules => loaders basic
         rules: [
             {
